@@ -1,0 +1,25 @@
+
+python manage.py runserver 8001
+同步表结构，生效表结构。
+python manage.py makemigrations
+python manage.py migrate
+超级管理员
+python3 manage.py createsuperuser
+
+render(request,'welcome.html',{"whichHTML":"P_apis.html","oid":project_id})
+
+opacity 0.8         透明度
+border: 1px solid black  四个边框
+border-radius: 10px 0px 0px 10px  边框的四个角
+background-color  背景颜色
+margin-left 模块左边距离游览器距离
+padding-left div中内容距离div距离
+position: absolute 取消默认位置 left  top
+placeholder 文本域提示
+text-align: center 字段-居中
+box-shadow 阴影
+class="btn-group" 俩按钮之间间隙
+
+
+<!--header请求头-->
+
